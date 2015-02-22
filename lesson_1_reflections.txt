@@ -1,0 +1,32 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Det gjorde det enklere fordi man ser med en gang hvilken linjer som er endret. Og da kan man fokusere kun på det som er endret.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Når man skal debugge gjør man seg selv mer effektiv ved å kunne sammenligne filer. Og få se tankegangen bak gamle valg.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Git commit
+Pros: You choose when to commit, when you mean there has been a significant enough change. You don't commit/save things that are not meant to be saved. Your commits have more meaning. So that when you go back versions you know what the change is.
+Cons: You can forget to commit. 
+
+Gdocs auto
+Pros: You never lose anything. You are always working on the most up to date file.
+Cons: If you want to go back to a specific point in time it becomes difficult to know what it is you are looking at. Your autosaved files might not have any meaning if they are saved mid-line.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Gdoc er laget mer for dokumenter og excel etc. Så det er ikke så nødvendig å sammenligne forskjellige filer sammen. Mens git er for koding. Da mange forskjellige filer har innvirkning på hverandre. Dermed er det lurt å kunne se hvordan endringer er gjort på forskjellige filer.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log shows you all of the history for the repository. It shows every commit by date.
+git diff is used to compare two different files.
+
+How might using version control make you more confident to make changes that could break something?
+I would feel more confident since i can revert back to old changes. If something doesn't work. Go back til a time where it did work.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I will try using it for my Intro Html classes.
