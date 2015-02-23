@@ -6,3 +6,7 @@ The staging area differs that it  exists to be commitable. You only bring things
 
 How can you use the staging area to make sure you have one commit per logical change?
 If you use the git diff --staged function you can check what the differences are between the staging area and the repo. One final check before commiting.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches would be helpful in situations where you are trying something experimental. Or if you have different versions of a program.
+If you have have a version of software that is a free trial you can make it a different branch, while the full version is another branch.
