@@ -3,3 +3,6 @@ When you initialize a repository you make a workspace. You need to do it so that
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area differs that it  exists to be commitable. You only bring things to the staging area once you are ready to commit it. While the working directory might have many files that are still under work. Which are not ready to be commited. It helps so that you can do commits over different stages.
+
+How can you use the staging area to make sure you have one commit per logical change?
+If you use the git diff --staged function you can check what the differences are between the staging area and the repo. One final check before commiting.
