@@ -19,3 +19,7 @@ branches. Especially if you have many commits.
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The result is that you can combine different branchs. If you had for example a new feature ready you could merge it into the master branch.
 We represent them in diagrams so you can visually see how the branch's are set up.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+The pro's are that Git pretty smartly merges files where it doesn't think there is a conflict. But it can merge something that isn't meant to be there.
+Doing it manually is it bit of a chore.
