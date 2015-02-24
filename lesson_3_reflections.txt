@@ -28,7 +28,10 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    One benefit would be that you are then working on the latest
+    pushed commit. And if you are going to work on code it
+    is less prone to conflict if you are working a new commit,
+    rather than an old commit.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
