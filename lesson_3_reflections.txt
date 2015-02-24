@@ -14,7 +14,16 @@ automatically stay up-to-date with your remote repository?
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+	You fork someone elses work from a remote repository. You make a copy 
+	for your own user. That way you can work on the "fork" from your 
+	own repo and not need permission from the original owner
+	to make commits.
+	While a clone you just download someone's work. And simply only have
+	it locally on your own machine. If you want to make changes
+	you will have to get permission from the original owner.
+	You can make a branch locally and remotely. If you want to test a 
+	new feature you can branch it locally. Then you can push that
+	branch to the remote without touching the master repo.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
